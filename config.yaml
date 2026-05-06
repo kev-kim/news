@@ -1,0 +1,39 @@
+baseurl: https://kev-kim.github.io/
+languageCode: en-us
+title: Kevin Kim
+theme: hugo-ivy
+
+menu:
+  main:
+    - name: Home
+      url: "/"
+      weight: 1
+    - name: News Intelligence
+      url: "/news"
+      weight: 2
+    # - name: About
+    #   url: "/about/"
+    #   weight: 2
+    # - name: Projects
+    #   url: "/projects/"
+    #   weight: 3
+    # - name: Blog
+    #   url: "/blog/"
+    #   weight: 4
+#   - name: Music
+#     url: "/music/"
+#     weight: 4
+#    - name: Recipes
+#      url: "/recipes/"
+#      weight: 5
+
+params:
+  description: "Imagining Sisyphus happy."
+  # footer: "&copy; [Kevin Kim](/path/to/site) 2022. | [Github](https://github.com/kev-kim) | [LinkedIn](https://www.linkedin.com/in/kevin-kim-1a75b4196/)"
+
+customCSS: /css/dark.css
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

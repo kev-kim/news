@@ -1,0 +1,20 @@
+{{ $data := site.Data.naver_news }}
+
+{{ range $data.queries }}
+  <h2>
+    {{ .query }} ({{ .total }})
+  </h2>
+
+  <ul>
+    {{ range .articles }}
+      <li>
+        <a href="{{ .link }}" target="_blank">
+          {{ .title }}
+        </a><br>
+        <span style="color:#666; font-size:0.9em;">
+          {{ .published_at }}
+        </span>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
