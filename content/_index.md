@@ -1,1 +1,5 @@
-Filler
+---
+title: "News Intelligence"
+---
+
+{{< news >}}

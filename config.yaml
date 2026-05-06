@@ -5,12 +5,9 @@ theme: hugo-ivy
 
 menu:
   main:
-    - name: Home
+    - name: News Intelligence
       url: "/"
       weight: 1
-    - name: News Intelligence
-      url: "/news"
-      weight: 2
     # - name: About
     #   url: "/about/"
     #   weight: 2
